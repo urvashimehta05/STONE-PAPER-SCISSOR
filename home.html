@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Rock Paper Scissors Game</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+    <!-- Start Game Section -->
+    <div id="st-1">
+        <h1>Press any button to start the game</h1>
+        <button id="btn_el">Start</button>
+    </div>
+    
+    <!-- Game Container -->
+    <div class="container">
+        
+        <!-- Score Display Section -->
+        <div class="scores">
+            <p>Computer: <span id="computer_score">0</span></p>
+            <p>Player: <span id="user_score">0</span></p>
+        </div>
+        
+        <!-- Weapon Selection Buttons -->
+        <div class="weapons">
+            <button id="rock"><i class="far fa-hand-rock"></i></button>
+            <button id="paper"><i class="far fa-hand-paper"></i></button>
+            <button id="scissors"><i class="far fa-hand-scissors"></i></button>
+        </div>
+
+        <!-- Game Details Section -->
+        <div class="details">
+            <p id="user_choice"></p>
+            <p id="comp_choice"></p>
+            <p id="result"></p>
+        </div>
+
+        <!-- Countdown Timer -->
+        <p id="countdown">10</p>
+    </div>
+
+    <!-- Link to JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
